@@ -2,22 +2,21 @@
 
     require_once("config.php");
 
-    if(isset($_POST['save']))
+    try
     {
         // Taking all 5 values from the form data(input)
-        $Name =  $_REQUEST['Name'];
+        $Full_Name =  $_REQUEST['Full_Name'];
         $Address = $_REQUEST['Address'];
         $Salary =  $_REQUEST['Salary'];
 
-        $sql = "INSERT INTO employees (id, Name, Address, Salary) VALUES (NULL, '$Name' ,'$Address','$Salary')";
+        $sql = "INSERT INTO employees (Id, Full_Name, Address, Salary) VALUES ('0', '$Full_Name' ,'$Address','$Salary')";
 
-        if(mysqli_query($connect_db, $sql)){
-            echo "<h3>data stored in a database successfully.</h3>";
-
-        } else{
+        $connect_db->exec($sql);
+        echo "<h3>data stored in a database successfully.</h3>";
+        }
+        catch(PDOException $e){
             echo "ERROR: Hush! Sorry. " ;
         }
         
         // Close connection
-        mysqli_close($connect_db);
-    }
+        $connect_db = null;

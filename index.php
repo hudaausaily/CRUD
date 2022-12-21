@@ -28,9 +28,6 @@
                 <input class="create-employee" type="button" value="Click Here" onclick="showForrmCreate()">
             </div>
         </section>
-        <section>
-            <?php include_once("./table.php"); ?>
-        </section>
     </main>
     <aside>
         <section id="form">
@@ -38,7 +35,9 @@
             <?php include_once("./form.php"); ?>
         </section>
     </aside>
-
+    <div>
+        <?php include_once("./view.php"); ?>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 <?php
 // Include the config file
-include_once 'config.php';
+require_once 'config.php';
 
 // Prepare a SELECT statement
-$sql = "SELECT id, Full_Name, Address, Salary FROM employees";
+$sql = "SELECT Id, Full_Name, Address, Salary FROM employees";
 $stmt = $connect_db->prepare($sql);
 
 // Execute the statement
@@ -26,6 +26,6 @@ foreach ($employees as $employee) {
   echo '<td>' . $employee['Salary'] . '</td>';
   echo '<td>';
   // Add buttons for viewing, updating, and deleting the employee
-  echo '<a href="read.php?id=' . $employee['Id'] . '">View</a> ';
-  echo '<a href="update.php?id=' . $employee['Id'];
+  // echo '<a href="read.php?id=' . $employee['Id'] . '">View</a> ';
+  // echo '<a href="update.php?id=' . $employee['Id'];
 }

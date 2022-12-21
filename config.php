@@ -8,7 +8,7 @@
     $connect_db = mysqli_connect($hostName,$dbuser,$dbPassword,$dbname);
 
 
-    // check connection 
+    // //check connection 
     // if(!$connect_db){
     //     echo("CONNECTION ERROR" . mysqli_connect_error());
     // }
