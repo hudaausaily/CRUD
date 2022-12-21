@@ -66,7 +66,7 @@ h2{
     border-bottom: 1px solid darkslateblue;
 }
 
-form input{
+form input,button{
     width: 90%;
     margin-top: 5%;
     padding-left: 1em;
@@ -76,8 +76,8 @@ form input{
     outline: 2px solid rgb(209, 216, 223);
 }
 
-form input:last-of-type{
-    width: 40%;
-    margin-bottom: 10%;
-    padding-left: 0em;
+form button {
+    width: 40% !important;
+    margin-bottom: 10% !important;
+    padding-left: 0em !important;
 }

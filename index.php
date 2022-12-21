@@ -28,8 +28,7 @@
                 <input class="create-employee" type="button" value="Click Here" onclick="showForrmCreate()">
             </div>
         </section>
-        <section id="form">
-            <h2>Create New Employee</h2>
+        <section>
             <?php include_once("./table.php"); ?>
         </section>
     </main>
