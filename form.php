@@ -1,10 +1,11 @@
 <?php
     // Form To Add New Employee
+
 ?>
 
-<form id="register" action="" method="POST" >
-    <input type="text" name="" value="" placeholder="Name">
-    <input type="text" name="" value="" placeholder="Address">
-    <input type="text" name="" value="" placeholder="Salary">
-    <input type="button" name="" value="submit" placeholder="submit">
+<form id="register" action="insert.php" method="POST" >
+    <input type="text" name="Name" value="" placeholder="Name">
+    <input type="text" name="Address" value="" placeholder="Address">
+    <input type="text" name="Salary" value="" placeholder="Salary">
+    <button type="submit" name="save">SAVE</button>
 </form>
