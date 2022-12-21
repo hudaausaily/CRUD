@@ -81,3 +81,7 @@ form button {
     margin-bottom: 10% !important;
     padding-left: 0em !important;
 }
+
+table{
+    width: 600px;
+}
