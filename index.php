@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
+    <main id="main">
         <section>
             <div>
                <strong> Database Statue  :</strong>
@@ -25,12 +25,20 @@
                <strong> To Add New Employee  :</strong>
             </div>
             <div>
-                <input type="button" value="Click Here">
+                <input class="create-employee" type="button" value="Click Here" onclick="showForrmCreate()">
             </div>
         </section>
         <section>
-            <?php include_once("./form.php"); ?>
+            <?php include_once("./table.php"); ?>
         </section>
     </main>
+    <aside>
+        <section id="form">
+            <h2>Create New Employee</h2>
+            <?php include_once("./form.php"); ?>
+        </section>
+    </aside>
+
+    <script src="./script.js"></script>
 </body>
 </html>

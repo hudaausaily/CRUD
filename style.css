@@ -2,20 +2,38 @@
     box-sizing: border-box;
 }
 main{
+    display: inline-block;
     padding: 5%;
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
 }
 
-section{
+aside{
+    padding: 5% 2%;
+    display: inline-block;
+    float: right;
+    width: 30%;
+}
+
+main section{
     margin: 0.5%;
-    width: 80%;
+    width: 100%;
     border-radius: 10px 0px 0px 10px;
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 50% 50%;
     border-left: 8px solid darkslateblue;
 }
+
+aside section{
+    margin: 0.5%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: aliceblue;
+    display: none;
+    grid-template-rows: auto;
+    border-top: 8px solid darkslateblue;
+}
+
 
 div{
     padding: 10% 10% 10% 10% ;
@@ -26,7 +44,7 @@ div{
     width: 100%;
 }
 
-input{
+.create-employee{
     margin-top: -0.8em;
     width: 48%;
     height: 2.8em;
@@ -37,3 +55,29 @@ input{
     outline: 2px solid rgb(209, 216, 223);
 }
 
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+h2{
+    width: 80%;
+    margin: 0 auto;
+    padding: 8% 0% 2% 0%;
+    border-bottom: 1px solid darkslateblue;
+}
+
+form input,button{
+    width: 90%;
+    margin-top: 5%;
+    padding-left: 1em;
+    height: 2.8em;
+    border-radius: 10px;
+    border: 2px solid rgb(203, 213, 223);
+    outline: 2px solid rgb(209, 216, 223);
+}
+
+form button {
+    width: 40% !important;
+    margin-bottom: 10% !important;
+    padding-left: 0em !important;
+}

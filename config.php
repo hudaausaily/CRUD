@@ -1,4 +1,5 @@
 <?php
+
     $hostName = "localhost";
     $dbname = "crud";
     $dbuser = "root";
