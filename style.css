@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    padding: 5%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+section{
+    margin: 0.5%;
+    width: 80%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-left: 8px solid darkslateblue;
+}
+
+div{
+    padding: 10% 10% 10% 10% ;
+}
+
+.message{
+    overflow: hidden;
+    width: 100%;
+}
+
+input{
+    margin-top: -0.8em;
+    width: 48%;
+    height: 2.8em;
+    color: aliceblue;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    border: 2px solid rgb(203, 213, 223);
+    outline: 2px solid rgb(209, 216, 223);
+}
+

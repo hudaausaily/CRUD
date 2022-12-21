@@ -12,5 +12,5 @@
         echo("CONNECTION ERROR" . mysqli_connect_error());
     }
     else{
-        echo("DataBase IS Connected")
+        echo("DataBase IS Connected");
     }
