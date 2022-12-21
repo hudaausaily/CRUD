@@ -1,7 +1,7 @@
 <?php
 include_once 'config.php';
 // Connect to the database
-$connect_db = mysqli_connect('localhost', 'root', '', 'crud');
+// $connect_db = mysqli_connect('localhost', 'root', ' ', 'crud');
 
 // Check the connection
 if (!$connect_db) {
