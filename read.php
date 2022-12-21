@@ -16,13 +16,14 @@ $employees = $stmt->fetchAll();
 $stmt->closeCursor();
 
 // Loop through the employees and display them in a table
-echo '<table>';
-echo '<tr><th>ID</th><th>Full Name</th><th>Address</th><th>Salary</th><th>Actions</th></tr>';
+echo '<table class="table table-striped table-dark">';
+echo '<tr><th scope="col">ID</th><th scope="col">Full Name</th><th scope="col">Address</th><th>Salary</th scope="col"><th>Actions</th></tr>';
 foreach ($employees as $employee) {
   echo '<tr>';
   echo '<td>' . $employee['Id'] . '</td>';
   echo '<td>' . $employee['Full_Name'] . '</td>';
   echo '<td>' . $employee['Address'] . '</td>';
+  echo '<td>' . $employee['Salary'] . '</td>';
   echo '<td>' . $employee['Salary'] . '</td>';
   echo '<td>';
   // Add buttons for viewing, updating, and deleting the employee
