@@ -35,9 +35,8 @@
             <?php include_once("./form.php"); ?>
         </section>
     </aside>
-    <div>
+    <div class="table-container"></div>
         <?php include_once("./view.php"); ?>
-    </div>
     <script src="./script.js"></script>
 </body>
 </html>
