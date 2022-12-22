@@ -44,7 +44,7 @@ div{
     width: 100%;
 }
 
-.create-employee{
+.create-employee,a{
     margin-top: -0.8em;
     width: 48%;
     height: 2.8em;
@@ -80,4 +80,8 @@ form button {
     width: 40% !important;
     margin-bottom: 10% !important;
     padding-left: 0em !important;
+}
+
+a{
+    color: white !important;
 }

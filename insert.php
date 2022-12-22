@@ -20,3 +20,4 @@
         
         // Close connection
         $connect_db = null;
+        echo("<a href='./index.php'>HOME</a>");
