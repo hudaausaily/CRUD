@@ -3,7 +3,7 @@
 
 ?>
 
-<form id="register" action="insert.php" method="POST" >
+<form id="register" action="index.php" method="POST" >
     <input type="text" name="Full_Name" value="" placeholder="Name">
     <input type="text" name="Address" value="" placeholder="Address">
     <input type="text" name="Salary" value="" placeholder="Salary">

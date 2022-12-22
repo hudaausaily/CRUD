@@ -20,14 +20,14 @@ echo '<table class="table table-striped table-dark">';
 echo '<tr><th scope="col">ID</th><th scope="col">Full Name</th><th scope="col">Address</th><th>Salary</th scope="col"><th>Actions</th></tr>';
 foreach ($employees as $employee) {
   echo '<tr>';
-  echo '<td>' . $employee['Id'] . '</td>';
-  echo '<td>' . $employee['Full_Name'] . '</td>';
-  echo '<td>' . $employee['Address'] . '</td>';
-  echo '<td>' . $employee['Salary'] . '</td>';
+  echo '<td scope="row">' . $employee['Id'] . '</td>';
+  echo '<td scope="row">' . $employee['Full_Name'] . '</td>';
+  echo '<td scope="row">' . $employee['Address'] . '</td>';
+  echo '<td scope="row">' . $employee['Salary'] . '</td>';
   echo '<td>
           <a href="#" style="color:white; margin-right: 15px;"><i class="material-icons">remove_red_eye</i></a>
           <a href="#" style="color:white; margin-right: 15px;"><i class="material-icons">mode_edit</i></a>
-          <a href="./delete.php" style="color:white"><i class="material-icons" >delete</i></a>
+          <a href="./delete.php" style="color:white" data-id="><i class="material-icons" >delete</i></a>
         </td>';
   echo '<tr>';
   // Add buttons for viewing, updating, and deleting the employee
