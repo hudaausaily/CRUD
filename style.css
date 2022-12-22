@@ -55,7 +55,7 @@ div{
     outline: 2px solid rgb(209, 216, 223);
 }
 
-form{
+#register{
     width: 80%;
     margin: 0 auto;
 }
@@ -66,7 +66,7 @@ h2{
     border-bottom: 1px solid darkslateblue;
 }
 
-form input,button{
+#register input,button{
     width: 90%;
     margin-top: 5%;
     padding-left: 1em;
@@ -76,12 +76,12 @@ form input,button{
     outline: 2px solid rgb(209, 216, 223);
 }
 
-form button {
+#register button {
     width: 40% !important;
     margin-bottom: 10% !important;
     padding-left: 0em !important;
 }
 
-a{
-    color: white !important;
+form{
+    display: inline;
 }
