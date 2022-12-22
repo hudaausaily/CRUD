@@ -44,7 +44,7 @@ div{
     width: 100%;
 }
 
-.create-employee{
+.create-employee,a{
     margin-top: -0.8em;
     width: 48%;
     height: 2.8em;

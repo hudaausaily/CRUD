@@ -1,5 +1,6 @@
 <?php
 
+    echo('<link rel="stylesheet" href="style.css">');
     require_once("config.php");
 
     try
@@ -20,3 +21,4 @@
         
         // Close connection
         $connect_db = null;
+        echo("<a href='./index.php'>HOME</a>");

@@ -18,7 +18,6 @@
             <div class="message">
                 <?php
                     require_once("config.php");
-                    require_once("insert.php");
                 ?>
             </div>
         </section>
