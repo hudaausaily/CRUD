@@ -40,23 +40,21 @@ if(isset($_POST['submit'])){
 <form method="POST">
 
   <div class="mb-3">
+
     <label>Full_Name</label>
-    <input type="text" class="form-control"
-     placeholder="Enter your Full_Name" name="Full_Name" autocomplete="off">
+    <input type="text" class="form-control" placeholder="Enter your Full_Name" name="Full_Name" autocomplete="off">
   </div>
 
   <div class="mb-3">
     <label>Address</label>
-    <input type="text" class="form-control"
-     placeholder="Enter your Address " name="Address" autocomplete="off">
-  </div>
-  <div class="mb-3">
-    <label>Salary</label>
-    <input type="text" class="form-control"
-     placeholder="Enter your Salary" name="Salary" autocomplete="off">
+    <input type="text" class="form-control" placeholder="Enter your Address " name="Address" autocomplete="off">
   </div>
 
-  
+  <div class="mb-3">
+    <label>Salary</label>
+    <input type="text" class="form-control" placeholder="Enter your Salary" name="Salary" autocomplete="off">
+  </div>
+
   <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
 
