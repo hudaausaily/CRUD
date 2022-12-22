@@ -1,6 +1,5 @@
 <?php
 
-    echo('<link rel="stylesheet" href="style.css">');
     require_once("config.php");
 
     try

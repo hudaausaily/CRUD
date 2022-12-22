@@ -24,8 +24,12 @@ foreach ($employees as $employee) {
   echo '<td>' . $employee['Full_Name'] . '</td>';
   echo '<td>' . $employee['Address'] . '</td>';
   echo '<td>' . $employee['Salary'] . '</td>';
-  echo '<td>' . $employee['Salary'] . '</td>';
-  echo '<td>';
+  echo '<td>
+          <a href="#" style="color:white; margin-right: 15px;"><i class="material-icons">remove_red_eye</i></a>
+          <a href="#" style="color:white; margin-right: 15px;"><i class="material-icons">mode_edit</i></a>
+          <a href="./delete.php" style="color:white"><i class="material-icons" >delete</i></a>
+        </td>';
+  echo '<tr>';
   // Add buttons for viewing, updating, and deleting the employee
   // echo '<a href="read.php?id=' . $employee['Id'] . '">View</a> ';
   // echo '<a href="update.php?id=' . $employee['Id'];
